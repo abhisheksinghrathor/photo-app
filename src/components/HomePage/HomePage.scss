@@ -1,0 +1,134 @@
+
+$body-bg: #000;
+
+//@import '~bootstrap/scss/bootstrap.scss';
+
+.imageCard:hover{
+
+}
+
+#top{
+    position: relative;
+    padding: 20px 20px 5px;
+}
+#topContainer{
+    position: relative;
+        background-position: 50%;
+        backgroucond-size: cover;
+        margin: 0 0 20px;
+        text-align: center;
+        transition: .8s;
+}
+#topContainer .background-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container{    
+    height: 5px;
+    box-shadow: 0 0 60px rgba(0,0,0,.12);
+}
+
+.imageCard{
+}
+// Within style tags in your html file
+body {
+    margin: 0;
+    padding: 1rem;
+  }
+  // SCSS
+  // Masonry layout flex
+  .masonry-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    p{
+      text-align: center;
+      padding: 4px;
+      font-family: monospace;
+      background: #222;
+      color: #efefef;
+    }
+  }
+  .masonry{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+    width: 100%;
+    margin: auto;
+  }
+  .column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: stretch;
+    flex-grow: 1;
+  }
+  .tile{
+    margin: 4px;
+    img{
+      box-shadow: 0 1px 1px 2px rgba(0,0,0, .15);
+      border-radius: 10px;
+      width: 100%;
+    }
+  }
+
+  .imageCarddetail{
+    display: block;
+  }
+
+  .imageCarddetailright{
+    float:left;
+  }
+  .imageCarddetailright{
+    float:right;
+  }
+
+  .row {
+    display: table;
+    width: 100%; /*Optional*/
+}
+.column {
+    display: table-cell;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  padding: 10px 10px 0px 6px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), black)
+}
+
+.imgcontainer:hover .image {
+  opacity: 0.5;
+}
+
+.imgcontainer:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
