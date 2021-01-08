@@ -20,7 +20,6 @@ class ImageDetails extends React.Component {
       
     };
     componentDidMount() {
-      //  debugger;
         let id =this.props.imageid;
        const getImagesbyId = async (id, pg = 1) => {
        

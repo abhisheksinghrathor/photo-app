@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+Steps to Run the test 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
 
-## Available Scripts
+1:  Download & install node on your system (if you already have node installed on your system skip this step ) 
 
-In the project directory, you can run:
+Software Download link: https://nodejs.org/en/download/  
 
-### `npm start`
+Steps to install: https://phoenixnap.com/kb/install-node-js-npm-on-windows  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2: Go to github link to download the code 
 
-### `npm test`
+Github Link: https://github.com/abhisheksinghrathor/photo-app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ 
 
-### `npm run build`
+3: open command prompt on your desktop and go to the path where you have downloaded the code 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Like my code is in https://github.com/abhisheksinghrathor/photo-app
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+So go to this path in command promt  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+4: run node command  “npm install” to install the package require 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5: Now when all the packages are install run “npm start” to run code on server 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Now the code ill run on web server 
 
-## Learn More
+“ http://localhost:3000/ “ 
+Use "http://<your ipaddrss>:3000/" in case you get CORS issue
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+About the Code : 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ 
 
-### Code Splitting
+The task of this application is to  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+• Display all images in a Masonary layout.  
 
-### Analyzing the Bundle Size
+• Show details of an individual image when it is selected.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+• It should contain two routes: o Image Masonary Grid rouet. o Image details route. 
 
-### Making a Progressive Web App
+ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+I used the technologies like React, Jquery, Html, Scss, ES6 for this application 
 
-### Advanced Configuration
+I have used react components to design components for each functionality so the application can be more loosely coupled and each component can be used to other places like plug n play. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ 
 
-### Deployment
+I have tried to implement this application as per as the given requirements in the documents shared to me but there are some areas where we can improve the application (if i have enough data and time i would try to add some more features) 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 
